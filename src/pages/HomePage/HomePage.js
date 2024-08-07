@@ -87,9 +87,7 @@ const {isDark, toggleTheme} = useThemeContext();
         }}
         />
       </Button>
-     
       <h1 style={{color: isDark ? 'white' : 'black'}}>Welcome to my portfolio</h1>
-
       <Box sx={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', mt: '10vw' }}>
         <Stack sx={{
           mr: isMobile ? '0' : '5%',

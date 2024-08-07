@@ -4,6 +4,7 @@ import visitkelcyra from '../../assets/portfolio/visitkelcyra.png';
 import landingpage from '../../assets/portfolio/landingpage.png';
 import phoneshop from '../../assets/portfolio/mobileshop.png';
 import portfolio from '../../assets/portfolio/portfolio.png';
+import realestatephoto from '../../assets/portfolio/realestatephoto.png';
 
 
 
@@ -59,6 +60,18 @@ export const projects = [
         change web color to dark and represent some of my app
          and is hosted on Netlify.`
       },
+      {
+        title:'Real Estate App',
+        photo: realestatephoto,
+        link: 'https://realestatefigma.netlify.app',
+        text: `A real estate website is an online platform where users can browse and search for properties 
+        such as houses, apartments, land, and commercial spaces. It typically features detailed listings with 
+        photos, descriptions, and sometimes virtual tours or videos of the properties. Users can filter their 
+        searches based on location, price range, property type, and other criteria. Real estate websites often 
+        provide tools for contacting agents or sellers, scheduling viewings, and even applying for mortgages or 
+        rentals. They serve as a central hub for both buyers looking for their dream property and sellers 
+        aiming to showcase their listings to a wide audience.`
+      } ,
       {
         title: 'Simple phoneshop app',
         photo: phoneshop,
